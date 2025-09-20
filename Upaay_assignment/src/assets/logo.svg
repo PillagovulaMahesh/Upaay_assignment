@@ -1,0 +1,20 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cuGradient" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B82F6"/> <!-- Tailwind blue-500 -->
+      <stop offset="1" stop-color="#2563EB"/> <!-- Tailwind blue-600 -->
+    </linearGradient>
+  </defs>
+  
+  <!-- Circle background -->
+  <circle cx="60" cy="60" r="55" fill="url(#cuGradient)" stroke="#1E3A8A" stroke-width="4"/>
+  
+  <!-- CU Text -->
+  <text x="50%" y="50%" text-anchor="middle" dy=".35em" 
+        font-family="Arial, Helvetica, sans-serif" 
+        font-size="40" 
+        font-weight="bold" 
+        fill="white">
+    CU
+  </text>
+</svg>
